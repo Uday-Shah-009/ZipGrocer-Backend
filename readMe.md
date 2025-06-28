@@ -16,9 +16,8 @@
 ## ⚙️ Tech Stack
 
 ### Frontend (In Progress)
-- React.js
-- Tailwind CSS (planned)
-- ShadCN UI (planned)
+- React Native 
+- Tailwind Css
 
 ### Backend
 - Node.js
