@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Hi <%= name %> 🛒</h2>
+    <p>
+      Your order (<strong>#<%= orderId %></strong>) has been successfully
+      placed!
+    </p>
+
+    <h3>Items:</h3>
+    <ul>
+      <% items.forEach(item => { %>
+      <li><%= item.name %> – Qty: <%= item.quantity %></li>
+      <% }); %>
+    </ul>
+
+    <p>We’ll notify you once your order is on the way.</p>
+  </body>
+</html>

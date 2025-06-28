@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>New Order Alert 🚨</h2>
+    <p>User: <strong><%= user %></strong> (<%= userEmail %>)</p>
+    <p>Order ID: <strong>#<%= orderId %></strong></p>
+
+    <h3>Items Ordered:</h3>
+    <ul>
+      <% items.forEach(item => { %>
+        <li><%= item.name %> – Qty: <%= item.quantity %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>
